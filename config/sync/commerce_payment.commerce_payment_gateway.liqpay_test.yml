@@ -1,0 +1,33 @@
+uuid: 3c43b1ab-e105-479d-835b-368d72720884
+langcode: ru
+status: true
+dependencies:
+  module:
+    - commerce_liqpay
+id: liqpay_test
+label: 'liqpay test'
+weight: null
+plugin: liqpay_offsite_gateway
+configuration:
+  message_success: 'Payment completed.'
+  message_reversed: 'Payment amount reversed to card holder.'
+  message_sandbox: 'Transaction marked as sandbox.'
+  message_failure: 'Payment marked as failed.'
+  message_error: 'Payment finished with error.'
+  message_processing: 'Payment marked as processed.'
+  message_cash_wait: 'Order waiting for a payment with self-service terminal.'
+  version: '3'
+  public_key: '113123123213'
+  private_key: '1312313123'
+  action_url: 'https://www.liqpay.ua/api/3/checkout'
+  action: pay
+  api_url: 'https://www.liqpay.ua/api/'
+  server_notifications: 0
+  description: 'Ordered # [commerce_order:order_id] at [site:name].'
+  display_label: Liqpay
+  mode: test
+  payment_method_types:
+    - credit_card
+  collect_billing_information: true
+conditions: {  }
+conditionOperator: AND

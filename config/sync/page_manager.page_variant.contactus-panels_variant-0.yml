@@ -4,40 +4,41 @@ status: true
 dependencies:
   config:
     - page_manager.page.contactus
-    - webform.webform.contact
+    - webform.webform.contacus
+  content:
+    - 'block_content:contact:e03cb01c-3a75-45f8-84d3-732c450b097a'
   module:
+    - block_content
     - panels
-    - simplenews
     - webform
 id: contactus-panels_variant-0
 label: Панели
 variant: panels_variant
 variant_settings:
   blocks:
-    d739dc1f-387a-4fd0-b0f4-759e54756079:
+    bf49248f-879f-4928-a478-6c0d7878b874:
       id: webform_block
       label: Webform
       provider: webform
       label_display: '0'
-      webform_id: contact
+      webform_id: contacus
       default_data: ''
       redirect: false
       region: second
       weight: 0
-      uuid: d739dc1f-387a-4fd0-b0f4-759e54756079
+      uuid: bf49248f-879f-4928-a478-6c0d7878b874
       context_mapping: {  }
-    52978ca7-2f89-42be-981b-b8c04d69d1df:
-      id: simplenews_subscription_block
-      label: 'Simplenews subscription'
-      provider: simplenews
+    05c43ede-b107-4549-a362-df2d1e6fda61:
+      id: 'block_content:e03cb01c-3a75-45f8-84d3-732c450b097a'
+      label: 'google map'
+      provider: block_content
       label_display: '0'
-      newsletters:
-        default: default
-      message: 'Будьте в курсе - подпишитесь на нашу рассылку.'
-      unique_id: 276bc412-44ee-4f28-bc27-1e9def183c67
-      region: bottom
-      weight: 0
-      uuid: 52978ca7-2f89-42be-981b-b8c04d69d1df
+      status: true
+      info: ''
+      view_mode: full
+      region: first
+      weight: -10
+      uuid: 05c43ede-b107-4549-a362-df2d1e6fda61
       context_mapping: {  }
   id: panels_variant
   uuid: 1a59cb2a-6523-4c0d-9fa8-c51ae79f9bb0

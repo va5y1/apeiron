@@ -1,0 +1,19 @@
+uuid: 6c209688-2d6f-44d9-8608-d5ecb0c322e2
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.feedback
+    - field.storage.contact_message.field_maps
+id: contact_message.feedback.field_maps
+field_name: field_maps
+entity_type: contact_message
+bundle: feedback
+label: maps
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
