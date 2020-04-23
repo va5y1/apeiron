@@ -1,0 +1,18 @@
+uuid: 559f20e7-b46a-4bb1-b872-8c8bfecb0d13
+langcode: ru
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Basic content page'
+type: basic_content_page
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

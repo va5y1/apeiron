@@ -1,0 +1,31 @@
+uuid: 4114a4bc-c053-44ea-a21c-cd49c95428bf
+langcode: ru
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.default
+    - field.storage.commerce_product.field_image_and_text
+    - paragraphs.paragraphs_type.image_with_title
+  module:
+    - entity_reference_revisions
+id: commerce_product.default.field_image_and_text
+field_name: field_image_and_text
+entity_type: commerce_product
+bundle: default
+label: 'image and text'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      image_with_title: image_with_title
+    target_bundles_drag_drop:
+      image_with_title:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

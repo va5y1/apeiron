@@ -1,0 +1,20 @@
+uuid: c932bb7e-2685-49ef-9164-2c164b0db6c3
+langcode: ru
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - node
+id: node.field_tovar
+field_name: field_tovar
+entity_type: node
+type: entity_reference
+settings:
+  target_type: commerce_product
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

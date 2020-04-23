@@ -1,0 +1,84 @@
+uuid: c2d307c0-ee69-484f-8765-c654f21a3cfd
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.image_with_title.field_image
+    - field.field.paragraph.image_with_title.field_opisan
+    - paragraphs.paragraphs_type.image_with_title
+  module:
+    - layout_builder
+    - layout_discovery
+    - text
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components: {  }
+        third_party_settings: {  }
+      -
+        layout_id: layout_twocol_section
+        layout_settings:
+          label: ''
+          column_widths: 50-50
+        components:
+          d7f6bd1d-b22b-4136-b5f2-43403f542dbc:
+            uuid: d7f6bd1d-b22b-4136-b5f2-43403f542dbc
+            region: second
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:paragraph:image_with_title:field_image'
+              formatter:
+                type: entity_reference_entity_view
+                label: hidden
+                settings:
+                  view_mode: default
+                  link: false
+                third_party_settings: {  }
+            additional: {  }
+            weight: 0
+          4be32b58-694b-482b-bce2-b3a0cfaef1c6:
+            uuid: 4be32b58-694b-482b-bce2-b3a0cfaef1c6
+            region: first
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:paragraph:image_with_title:field_opisan'
+              formatter:
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+                type: text_default
+            additional: {  }
+            weight: 0
+        third_party_settings: {  }
+id: paragraph.image_with_title.default
+targetEntityType: paragraph
+bundle: image_with_title
+mode: default
+content:
+  field_image:
+    type: entity_reference_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_opisan:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

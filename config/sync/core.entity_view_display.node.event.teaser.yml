@@ -1,0 +1,37 @@
+uuid: daa5d7d8-f3df-4a80-9f21-772d6f07dce5
+langcode: ru
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.event.body
+    - field.field.node.event.field_image
+    - field.field.node.event.field_pokupka_produkta
+    - field.field.node.event.field_video_prezentaciya
+    - node.type.event
+  module:
+    - text
+    - user
+id: node.event.teaser
+targetEntityType: node
+bundle: event
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_image: true
+  field_pokupka_produkta: true
+  field_video_prezentaciya: true
+  langcode: true

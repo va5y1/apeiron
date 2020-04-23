@@ -1,0 +1,25 @@
+uuid: bc999593-9315-4076-a5a4-f50b860b0134
+langcode: ru
+status: true
+dependencies:
+  config:
+    - block_content.type.contact
+    - field.field.block_content.contact.body
+    - field.field.block_content.contact.field_map
+  module:
+    - text
+id: block_content.contact.default
+targetEntityType: block_content
+bundle: contact
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_map: true
+  langcode: true

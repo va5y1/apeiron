@@ -1,0 +1,31 @@
+uuid: 09d57359-efd2-4e73-a617-241dd4f5c30b
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_image_with_text_
+    - node.type.product
+    - paragraphs.paragraphs_type.image_with_title
+  module:
+    - entity_reference_revisions
+id: node.product.field_image_with_text_
+field_name: field_image_with_text_
+entity_type: node
+bundle: product
+label: 'Image with text '
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      image_with_title: image_with_title
+    target_bundles_drag_drop:
+      image_with_title:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

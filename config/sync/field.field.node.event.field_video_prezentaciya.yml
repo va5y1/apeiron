@@ -1,0 +1,28 @@
+uuid: e68a4f71-fd22-42fd-b345-e80751d3c529
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_video_prezentaciya
+    - media.type.remote_video
+    - node.type.event
+id: node.event.field_video_prezentaciya
+field_name: field_video_prezentaciya
+entity_type: node
+bundle: event
+label: Видео-презентация
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      remote_video: remote_video
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

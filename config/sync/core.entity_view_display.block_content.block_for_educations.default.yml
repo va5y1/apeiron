@@ -1,0 +1,33 @@
+uuid: d88addc6-e683-4186-a14b-ccd9948b3ef0
+langcode: ru
+status: true
+dependencies:
+  config:
+    - block_content.type.block_for_educations
+    - field.field.block_content.block_for_educations.body
+    - field.field.block_content.block_for_educations.field_image
+  module:
+    - text
+id: block_content.block_for_educations.default
+targetEntityType: block_content
+bundle: block_for_educations
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image:
+    type: entity_reference_entity_view
+    weight: 1
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

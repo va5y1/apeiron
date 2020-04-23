@@ -1,0 +1,20 @@
+uuid: c0df7529-25ef-454c-9418-2742222c2618
+langcode: ru
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: pq_mEIu_B4widZN7Ap81iCJSjShFFdcL0jEiCi8VrDk
+id: anonymous
+label: 'Анонимный пользователь'
+weight: 0
+is_admin: false
+permissions:
+  - 'access checkout'
+  - 'access comments'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'search content'
+  - 'subscribe to newsletters'
+  - 'use text format restricted_html'
+  - 'view commerce_product'
+  - 'view media'

@@ -1,0 +1,57 @@
+uuid: 18b33ad0-487c-4d52-8595-4f1368f360f4
+langcode: ru
+status: true
+dependencies:
+  config:
+    - page_manager.page.contactus
+    - webform.webform.contact
+  module:
+    - panels
+    - simplenews
+    - webform
+id: contactus-panels_variant-0
+label: Панели
+variant: panels_variant
+variant_settings:
+  blocks:
+    d739dc1f-387a-4fd0-b0f4-759e54756079:
+      id: webform_block
+      label: Webform
+      provider: webform
+      label_display: '0'
+      webform_id: contact
+      default_data: ''
+      redirect: false
+      region: second
+      weight: 0
+      uuid: d739dc1f-387a-4fd0-b0f4-759e54756079
+      context_mapping: {  }
+    52978ca7-2f89-42be-981b-b8c04d69d1df:
+      id: simplenews_subscription_block
+      label: 'Simplenews subscription'
+      provider: simplenews
+      label_display: '0'
+      newsletters:
+        default: default
+      message: 'Будьте в курсе - подпишитесь на нашу рассылку.'
+      unique_id: 276bc412-44ee-4f28-bc27-1e9def183c67
+      region: bottom
+      weight: 0
+      uuid: 52978ca7-2f89-42be-981b-b8c04d69d1df
+      context_mapping: {  }
+  id: panels_variant
+  uuid: 1a59cb2a-6523-4c0d-9fa8-c51ae79f9bb0
+  label: null
+  weight: 0
+  layout: layout_twocol
+  layout_settings:
+    label: ''
+  page_title: ''
+  storage_type: page_manager
+  storage_id: contactus-panels_variant-0
+  builder: standard
+page: contactus
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

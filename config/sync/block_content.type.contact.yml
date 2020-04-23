@@ -1,0 +1,8 @@
+uuid: c020ac3a-0575-41ea-9d81-61c98c7ad4db
+langcode: ru
+status: true
+dependencies: {  }
+id: contact
+label: Contact
+revision: 0
+description: ''

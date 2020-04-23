@@ -1,0 +1,11 @@
+uuid: ffa0e08d-abeb-42a8-bd71-8f3dda7944ac
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.kategoriya_tovara
+id: taxonomy_term.kategoriya_tovara
+target_entity_type_id: taxonomy_term
+target_bundle: kategoriya_tovara
+default_langcode: site_default
+language_alterable: false

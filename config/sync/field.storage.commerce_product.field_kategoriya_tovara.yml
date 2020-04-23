@@ -1,0 +1,20 @@
+uuid: 484c415a-ac5b-4835-b443-8218bc413ca6
+langcode: ru
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - taxonomy
+id: commerce_product.field_kategoriya_tovara
+field_name: field_kategoriya_tovara
+entity_type: commerce_product
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

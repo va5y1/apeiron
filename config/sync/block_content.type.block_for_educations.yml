@@ -1,0 +1,8 @@
+uuid: 7ee554ec-bb6f-496e-a62a-d1b2441588b8
+langcode: ru
+status: true
+dependencies: {  }
+id: block_for_educations
+label: 'block for educations'
+revision: 0
+description: ''

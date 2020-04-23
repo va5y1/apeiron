@@ -1,0 +1,59 @@
+uuid: b28f5cd0-dd5c-4d3d-903d-904b51b309d2
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.node.event.body
+    - field.field.node.event.field_image
+    - field.field.node.event.field_pokupka_produkta
+    - field.field.node.event.field_video_prezentaciya
+    - node.type.event
+  module:
+    - text
+    - user
+id: node.event.default
+targetEntityType: node
+bundle: event
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image:
+    weight: 1
+    label: hidden
+    settings:
+      link: true
+      view_mode: default
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+  field_pokupka_produkta:
+    weight: 4
+    label: hidden
+    settings:
+      link: true
+      view_mode: default
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+  field_video_prezentaciya:
+    type: entity_reference_entity_view
+    weight: 3
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

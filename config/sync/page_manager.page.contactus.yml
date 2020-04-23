@@ -1,0 +1,12 @@
+uuid: 32ee3832-f23d-4fda-8acd-8e408e8c74f1
+langcode: ru
+status: true
+dependencies: {  }
+id: contactus
+label: Contactus
+description: ''
+use_admin_theme: false
+path: /contactus
+access_logic: and
+access_conditions: {  }
+parameters: {  }

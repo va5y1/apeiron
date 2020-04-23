@@ -1,0 +1,9 @@
+uuid: 36ac10bd-08d5-4f61-8684-c8bb9890a9bf
+langcode: ru
+status: true
+dependencies: {  }
+currencyCode: USD
+name: 'доллар США'
+numericCode: '840'
+symbol: $
+fractionDigits: 2

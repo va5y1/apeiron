@@ -1,0 +1,23 @@
+uuid: a67f5c40-ec2b-4962-949e-22ec4b8ff44f
+langcode: ru
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.event
+    - field.storage.commerce_product.body
+  module:
+    - text
+id: commerce_product.event.body
+field_name: body
+entity_type: commerce_product
+bundle: event
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: null
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

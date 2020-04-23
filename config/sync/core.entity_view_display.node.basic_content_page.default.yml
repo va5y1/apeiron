@@ -1,0 +1,50 @@
+uuid: 95df04d8-cc91-41ba-9351-94ba9dbf171c
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.node.basic_content_page.body
+    - field.field.node.basic_content_page.field_image
+    - field.field.node.basic_content_page.field_image_with_text_
+    - node.type.basic_content_page
+  module:
+    - entity_reference_revisions
+    - text
+    - user
+id: node.basic_content_page.default
+targetEntityType: node
+bundle: basic_content_page
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image:
+    type: entity_reference_entity_view
+    weight: 1
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_image_with_text_:
+    type: entity_reference_revisions_entity_view
+    weight: 3
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

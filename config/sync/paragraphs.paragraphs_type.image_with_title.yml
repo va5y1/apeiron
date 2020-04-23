@@ -1,0 +1,10 @@
+uuid: 1aa28cae-7826-4797-ac6a-b02bccf3c107
+langcode: ru
+status: true
+dependencies: {  }
+id: image_with_title
+label: 'Image with title'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,10 @@
+uuid: 318b86e6-b5d7-406f-b021-78237b8ca10d
+langcode: ru
+status: true
+dependencies: {  }
+id: event
+label: Event
+orderItemType: default
+generateTitle: null
+traits: {  }
+locked: false

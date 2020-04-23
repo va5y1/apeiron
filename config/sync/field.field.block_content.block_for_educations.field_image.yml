@@ -1,0 +1,28 @@
+uuid: 5451b907-0621-4578-b831-13ebfbea4a9b
+langcode: ru
+status: true
+dependencies:
+  config:
+    - block_content.type.block_for_educations
+    - field.storage.block_content.field_image
+    - media.type.image
+id: block_content.block_for_educations.field_image
+field_name: field_image
+entity_type: block_content
+bundle: block_for_educations
+label: Image
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,12 @@
+uuid: 53932a39-7f33-4513-951f-94207c8ebfd0
+langcode: ru
+status: true
+dependencies: {  }
+id: event
+label: Event
+description: ''
+variationType: event
+multipleVariations: true
+injectVariationFields: true
+traits: {  }
+locked: false

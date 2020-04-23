@@ -1,0 +1,14 @@
+uuid: 4a2f4cbe-e291-48ad-9b1f-edf5979c74e5
+name: 'Apeiron School of mind'
+mail: admin@example.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /home
+admin_compact_mode: false
+weight_select_max: 100
+langcode: ru
+default_langcode: ru
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

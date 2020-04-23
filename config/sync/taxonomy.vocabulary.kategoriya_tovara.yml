@@ -1,0 +1,8 @@
+uuid: 9974baee-2d1f-4ec2-ada7-54236cd6748e
+langcode: ru
+status: true
+dependencies: {  }
+name: 'Категория товара'
+vid: kategoriya_tovara
+description: ''
+weight: 0

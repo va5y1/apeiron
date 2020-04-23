@@ -1,0 +1,84 @@
+uuid: 366a7e9c-7f9f-453d-8665-14bb171b9947
+langcode: ru
+status: true
+dependencies:
+  config:
+    - page_manager.page.homepage
+  content:
+    - 'block_content:basic:31c20fd4-8c98-420e-969b-6f586a09a7a9'
+    - 'block_content:basic:8112754c-e125-4cc8-bd95-68cfe7db6e2b'
+    - 'block_content:basic:b2a9347e-062a-4011-b1a2-49b95d604808'
+    - 'block_content:basic:f7cb877e-98de-4868-ac07-43dd5f023555'
+  module:
+    - block_content
+    - panels
+id: homepage-panels_variant-0
+label: Панели
+variant: panels_variant
+variant_settings:
+  blocks:
+    0933e77d-be6d-468d-996b-77111b68e6df:
+      id: 'block_content:31c20fd4-8c98-420e-969b-6f586a09a7a9'
+      label: 'О нас'
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      region: first
+      weight: -9
+      uuid: 0933e77d-be6d-468d-996b-77111b68e6df
+      context_mapping: {  }
+    62de7d72-41a2-4eff-9936-d0b18510f779:
+      id: 'block_content:b2a9347e-062a-4011-b1a2-49b95d604808'
+      label: Контакти
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      region: second
+      weight: 0
+      uuid: 62de7d72-41a2-4eff-9936-d0b18510f779
+      context_mapping: {  }
+    e6b090f9-8a0d-4649-9a93-8f14b01cd5a4:
+      id: 'block_content:f7cb877e-98de-4868-ac07-43dd5f023555'
+      label: Обучение
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      region: first
+      weight: -10
+      uuid: e6b090f9-8a0d-4649-9a93-8f14b01cd5a4
+      context_mapping: {  }
+    2acc49a1-7e50-4cd6-b935-e45dd4be705d:
+      id: 'block_content:8112754c-e125-4cc8-bd95-68cfe7db6e2b'
+      label: 'Афиша homepage'
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      region: second
+      weight: -1
+      uuid: 2acc49a1-7e50-4cd6-b935-e45dd4be705d
+      context_mapping: {  }
+  id: panels_variant
+  uuid: fe37268e-b539-4440-8654-777c861b8eb4
+  label: null
+  weight: 0
+  layout: layout_twocol_section
+  layout_settings:
+    label: ''
+    column_widths: 50-50
+  page_title: ''
+  storage_type: page_manager
+  storage_id: homepage-panels_variant-0
+  builder: standard
+page: homepage
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

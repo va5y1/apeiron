@@ -1,0 +1,21 @@
+uuid: f2991d8f-0ec7-41a8-b738-fd5fe98a3743
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_opisan
+    - paragraphs.paragraphs_type.image_with_title
+  module:
+    - text
+id: paragraph.image_with_title.field_opisan
+field_name: field_opisan
+entity_type: paragraph
+bundle: image_with_title
+label: Описание
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

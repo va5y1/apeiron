@@ -1,0 +1,37 @@
+uuid: 2e3c8950-438e-4295-a44e-93d8f3417291
+langcode: ru
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.product.body
+    - field.field.node.product.field_image_with_text_
+    - field.field.node.product.field_kategoriya
+    - field.field.node.product.field_tovar
+    - node.type.product
+  module:
+    - text
+    - user
+id: node.product.teaser
+targetEntityType: node
+bundle: product
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_image_with_text_: true
+  field_kategoriya: true
+  field_tovar: true
+  langcode: true

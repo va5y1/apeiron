@@ -1,0 +1,11 @@
+uuid: e6b9529a-1010-4867-bfd2-5987500d6745
+langcode: ru
+status: true
+dependencies:
+  config:
+    - block_content.type.block_for_educations
+id: block_content.block_for_educations
+target_entity_type_id: block_content
+target_bundle: block_for_educations
+default_langcode: site_default
+language_alterable: false
