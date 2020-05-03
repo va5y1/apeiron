@@ -1,0 +1,4 @@
+administer apeiron_pay configuration:
+  title: 'Administer apeiron_pay configuration'
+  description: 'Optional description.'
+  restrict access: true
