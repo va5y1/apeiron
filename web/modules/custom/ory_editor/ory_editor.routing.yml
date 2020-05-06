@@ -1,0 +1,7 @@
+hello: 
+  path: '/react' 
+  defaults: 
+    _controller: '\Drupal\ory_editor\Plugin\Controller\ReactPageController::content' 
+    _title: 'React Application Demo'
+  requirements: 
+    _permission: 'access content'

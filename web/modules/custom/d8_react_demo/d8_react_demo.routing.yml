@@ -1,0 +1,7 @@
+hello: 
+  path: '/react-app-demo' 
+  defaults: 
+    _controller: '\Drupal\d8_react_demo\Controller\ReactPageController::content' 
+    _title: 'React Application Demo'
+  requirements: 
+    _permission: 'access content'

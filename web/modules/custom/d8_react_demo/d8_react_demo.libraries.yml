@@ -1,0 +1,12 @@
+react_dependencies:
+  version: 1.x
+  js:
+    js/react/react.production.min.js: {}
+    js/react/react-dom.production.min.js: {}
+
+application:
+  version: 1.x
+  js:
+    js/application.js: {}
+  dependencies:
+    - d8_react_demo/react_dependencies

@@ -1,0 +1,5 @@
+name: React binding demonstration.
+description: Binds a simple react module to a page.
+package: CHIEF
+type: module
+core: 8.x

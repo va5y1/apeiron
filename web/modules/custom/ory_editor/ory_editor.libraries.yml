@@ -1,0 +1,8 @@
+# Custom module library for general purposes.
+ory_editor:
+  version: 1.x
+  js:
+    js/build/static/js/main.9c2497a2.chunk.js: { minified: true }
+  css:
+    component:
+      js/build/static/css/main.5ecd60fb.chunk.css: { minified: true}

@@ -31,7 +31,7 @@
 .gitattributes
 
 # Ignore NPM file directory
-web/themes/custom/bootstrap_air/node_modules/
+node_modules/
 
 # Ignore SQL file
 *.sql
